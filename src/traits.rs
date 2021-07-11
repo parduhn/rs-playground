@@ -25,7 +25,6 @@ pub fn run() {
         content: String::from("Wird sowieso nicht ausgegeben"),
     };
 
-    println!("Standard Ausagabe: {}", standard_article.summarize());
 }
 
 // default traits
