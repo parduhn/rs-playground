@@ -1,6 +1,9 @@
+mod afolder;
 mod generic;
 mod lifetime;
 mod traits;
+
+use afolder::afile;
 
 fn main() {
     // generische Typen
@@ -11,5 +14,8 @@ fn main() {
     println!("---------------------------------------");
     // merkmale
     traits::run();
+    println!("---------------------------------------");
+    // folder
+    afile::afn();
     println!("---------------------------------------");
 }
